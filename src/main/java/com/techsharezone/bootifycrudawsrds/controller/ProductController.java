@@ -23,4 +23,13 @@ public class ProductController {
     public Product addProduct(@RequestBody Product product){
         return service.saveProduct(product);
     }
+    
+    @PostMapping("/addProducts")
+    public List<Product> addProducts(@RequestBody List<Product> products){
+        return service.saveProducts(products);
+    }
+
+    @GetMapping("/products")
+    public List<Product> findAllProducts(){
+        return service.findAllProducts();
 }
