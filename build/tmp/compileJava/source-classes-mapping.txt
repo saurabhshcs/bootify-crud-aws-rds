@@ -1,0 +1,10 @@
+com/techsharezone/bootifycrudawsrds/BootifyCrudAwsRdsApplication.java
+ com.techsharezone.bootifycrudawsrds.BootifyCrudAwsRdsApplication
+com/techsharezone/bootifycrudawsrds/controller/ProductController.java
+ com.techsharezone.bootifycrudawsrds.controller.ProductController
+com/techsharezone/bootifycrudawsrds/repository/ProductRepository.java
+ com.techsharezone.bootifycrudawsrds.repository.ProductRepository
+com/techsharezone/bootifycrudawsrds/service/ProductService.java
+ com.techsharezone.bootifycrudawsrds.service.ProductService
+com/techsharezone/bootifycrudawsrds/entity/Product.java
+ com.techsharezone.bootifycrudawsrds.entity.Product
