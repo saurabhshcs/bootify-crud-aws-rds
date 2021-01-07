@@ -6,3 +6,6 @@ Linkedin - https://www.linkedin.com/posts/saurabhshcs_create-aws-rds-mysql-datab
 
 This project is just for an sample demonstration and to see how to connect with Amazon RDS Endpoint and intract while performing crid operations.
 
+
+
+It is containing the database CRUD operaiton with AWS RDS Mysql databse.
