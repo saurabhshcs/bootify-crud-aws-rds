@@ -9,3 +9,14 @@ This project is just for an sample demonstration and to see how to connect with 
 
 
 It is containing the database CRUD operaiton with AWS RDS Mysql databse.
+
+## Run all the test 
+
+`
+./gradlew test
+`
+
+## Run application
+`
+./gradlew bootRun
+`
