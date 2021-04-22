@@ -8,7 +8,19 @@ This project is just for an sample demonstration and to see how to connect with 
 
 
 
-It is containing the database CRUD operaiton with AWS RDS Mysql databse.
+It is containing the database CRUD operaiton with AWS RDS Mysql databse. You need to configure MYSQL on AWS using AWS RDS and grab the connection string to configure in application.yaml
+
+
+```
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:mysql://{AWS_RDS_ENDPOINT}:3306/bootify
+spring.datasource.username = {user}
+spring.datasource.password = {password}
+spring.jpa.show-sql = true
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect
+server.port=9003
+```
 
 ## Run all the test 
 
