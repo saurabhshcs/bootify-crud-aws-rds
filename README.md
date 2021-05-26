@@ -40,6 +40,49 @@ spring:
 ./gradlew bootRun
 `
 
+### Payload of three (3) Request of Add Product
+```ssh
+curl -d '{"name":"Microsoft", "qty":1100, "price": 212.99}' -H "Content-Type: application/json" -X POST http://localhost:9003/addProduct
+
+curl -d '{"name":"Apple", "qty":500, "price": 2912.99}' -H "Content-Type: application/json" -X POST http://localhost:9003/addProduct
+
+curl -d '{"name":"HP", "qty":50, "price": 912.99}' -H "Content-Type: application/json" -X POST http://localhost:9003/addProduct
+```
+
+### Get All products
+
+```ssh
+curl -X GET -H "Content-type: application/json" -H "Accept: application/json"  "http://localhost:9003/products"
+```
+
+
+```json
+[
+    {
+        "id": 1,
+        "name": "Microsoft",
+        "qty": 1100,
+        "price": 212.99,
+        "creationTS": null
+    },
+    {
+        "id": 2,
+        "name": "Apple",
+        "qty": 500,
+        "price": 2912.99,
+        "creationTS": null
+    },
+    {
+        "id": 3,
+        "name": "HP",
+        "qty": 50,
+        "price": 912.99,
+        "creationTS": null
+    }
+]
+```
+
+
 ### Read
 
 - Medium - https://saurabhshcs.medium.com/create-aws-rds-mysql-database-b26119d73aa
