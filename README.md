@@ -17,7 +17,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://bootify.co9ucvvetcr7.eu-west-2.rds.amazonaws.com:3306/bootify
+    url: jdbc:mysql://{AWS_RDS_ENDPOINT_URL}m:3306/bootify
     username: bootify
     password: Bootify123
   jpa:
