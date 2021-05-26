@@ -1,0 +1,15 @@
+server:
+    port: 9003
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bootify.co9ucvvetcr7.eu-west-2.rds.amazonaws.com:3306/bootify
+    username: bootify
+    password: Bootify123
+  jpa:
+    show-sql: true
+    properties:
+      dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: create

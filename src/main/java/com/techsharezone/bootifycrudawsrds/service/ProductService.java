@@ -1,7 +1,7 @@
 package com.techsharezone.bootifycrudawsrds.service;
 
 /*
- * @created 08/11/2020 -05:01
+ * @created 27/05/2021 -05:01
  * @project bootify-crud-aws-rds
  * @author  saurabhshcs
  */
@@ -45,7 +45,7 @@ public class ProductService {
     }
 
     public Product updateProduct(Product product) {
-        Product existingProduct = repository.findById(product.getId()).orElse(null);
+        Product existingProduct = repository.findById(product.getId().intValue()).orElse(null);
         existingProduct.setName(product.getName());
         existingProduct.setQty(product.getQty());
         existingProduct.setPrice(product.getPrice());

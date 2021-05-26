@@ -19,14 +19,13 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "PRODUCT")
+@Table(name = "product")
 public class Product {
 
     @Id
-    @GeneratedValue
-    private int id;
+    private Long id;
     private String name;
-    private int qty;
-    private double price;
+    private Integer qty;
+    private Double price;
     private String creationTS;
 }
