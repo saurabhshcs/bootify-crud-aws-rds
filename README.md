@@ -7,7 +7,7 @@ This project is just for an sample demonstration and to see how to connect with 
 
 
 
-It is containing the database CRUD operaiton with AWS RDS Mysql databse. You need to configure MYSQL on AWS using AWS RDS and grab the connection string to configure in application.yaml
+It is containing the database CRUD operaiton with AWS RDS Mysql databse. You need to configure MYSQL on AWS using AWS RDS and grab the connection string to configure in `application.yaml`
 
 
 ```application.yaml
