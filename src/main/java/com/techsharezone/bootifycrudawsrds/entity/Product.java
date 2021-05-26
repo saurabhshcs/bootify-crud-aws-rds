@@ -23,6 +23,7 @@ import javax.persistence.Table;
 public class Product {
 
     @Id
+    @GeneratedValue
     private Long id;
     private String name;
     private Integer qty;
