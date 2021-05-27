@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://bootify.co9ucvvetcr7.eu-west-2.rds.amazonaws.com:3306/bootify
-    username: bootify
-    password: Bootify123
+    url: jdbc:mysql://{AWS_RDS_MYSQL_ENDPOINT}:3306/bootify
+    username: { USER_NAME }
+    password: { PASSWORD }
   jpa:
     show-sql: true
     properties:
