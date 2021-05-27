@@ -5,7 +5,11 @@ Created a aws-rds database: Please following links for the reference link to lea
 
 This project is just for an sample demonstration and to see how to connect with Amazon RDS Endpoint and intract while performing crid operations.
 
-
+### Required Tools & Applications
+ - Code Editor or IDE - [IntelliJ Idea](https://www.jetbrains.com/idea/download/#section=mac)
+ - AWS-RDS - [AWS Console](https://aws.amazon.com/console/)
+ - Database - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+ - RestClient - [Postman](https://www.postman.com/downloads/)
 
 It is containing the database CRUD operaiton with AWS RDS Mysql databse. You need to configure MYSQL on AWS using AWS RDS and grab the connection string to configure in `application.yaml`
 
