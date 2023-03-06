@@ -93,5 +93,5 @@ curl -X GET -H "Content-type: application/json" -H "Accept: application/json"  "
 - Linkedin - https://www.linkedin.com/posts/saurabhshcs_create-aws-rds-mysql-database-activity-6730670206093443072-F1_A
 
 
-Follow me on - [Medium](https://saurabhshcs.medium.com) | [Linkedin](https://www.linkedin.com/in/saurabhshcs/) | [YouTube](https://www.youtube.com/channel/UCSQqjPw7_tfx1Ie4yYHbcxQ?pbjreload=102) | [StackOverFlow](https://stackoverflow.com/users/10719720/saurabhshcs?tab=profile)
+Follow me on - [Medium](https://saurabhshcs.medium.com) | [Linkedin](https://www.linkedin.com/in/saurabhshcs/) | [YouTube](https://www.youtube.com/channel/UCCcs4hBxWNcoea0yaONnh8g) | [StackOverFlow](https://stackoverflow.com/users/10719720/saurabhshcs?tab=profile)
 

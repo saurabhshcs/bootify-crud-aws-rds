@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://{AWS_RDS_MYSQL_ENDPOINT}:3306/bootify
-    username: { USER_NAME }
-    password: { PASSWORD }
+    url: jdbc:mysql://database-1.c7wkwtgntjao.eu-west-2.rds.amazonaws.com:3306/ecommerce
+    username: admin
+    password: Shard!123
   jpa:
     show-sql: true
     properties:

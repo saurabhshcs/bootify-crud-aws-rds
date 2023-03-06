@@ -1,0 +1,5 @@
+.gradle
+*.db
+build
+.idea
+idea
